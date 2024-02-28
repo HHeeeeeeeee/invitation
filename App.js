@@ -23,7 +23,7 @@ const App = () => {
   return (
     <>
       <Title />
-      <Gretting />
+      <Greetting />
       <Gallery />
       <Location />
       <CongratulatoryMoney />
