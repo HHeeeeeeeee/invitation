@@ -1,11 +1,8 @@
 {
-  "name": "wedding-invitation",
+  "name": "invitation",
   "version": "1.0.1",
   "description": "KyuHyuk Lee🤵 ❤ Jungwon Byeon👰 Wedding Invitation💌",
   "main": "index.js",
-  "repository": "https://github.com/LeeKyuHyuk/wedding-invitation.git",
-  "author": "KyuHyuk Lee <lee@kyuhyuk.kr>",
-  "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=development webpack serve --progress",
     "build": "NODE_ENV=production webpack --progress"
