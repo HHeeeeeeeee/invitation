@@ -6,7 +6,7 @@ import { Layout } from 'antd';
 import './App.css';
 // 컴포넌트를 불러옵니다.
 import Title from './Components/Title';
-import Greetting from './Components/Greeting';
+import Greeting from './Components/Greeting';
 import Gallery from './Components/Gallery';
 import Location from './Components/Location';
 import CongratulatoryMoney from './Components/CongratulatoryMoney';
@@ -23,7 +23,7 @@ const App = () => {
   return (
     <>
       <Title />
-      <Greetting />
+      <Greeting />
       <Gallery />
       <Location />
       <CongratulatoryMoney />
