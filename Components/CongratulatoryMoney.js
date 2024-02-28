@@ -18,7 +18,7 @@ import {
   BRIDE_MOTHER_NAME,
   BRIDE_MOTHER_ACCOUNT_NUMBER,
 } from '../Config'; // Config 파일에서 필요한 상수들을 불러옵니다.
-import GroovePaper from '../Assets/GroovePaper.png'; // GroovePaper 이미지를 불러옵니다.
+import GroovePaper from './Assets/GroovePaper.png'; // GroovePaper 이미지를 불러옵니다.
 
 // styled-components를 사용하여 Wrapper 스타일을 정의합니다.
 const Wrapper = styled.div`
