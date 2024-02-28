@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:type" content="website" />
-    <meta content="병휘❤희연 결혼식에 초대합니다" name="Title" />
-    <meta content="2024년 06월 01일 토요일 오후 4시" name="Description" />
-    <meta content="2024년 06월 01일 토요일 오후 4시" name="Keyword" />
-    <meta property="og:title" content="병휘❤희연 결혼식에 초대합니다" />
-    <meta property="og:description" content="2024년 06월 01일 토요일 오후 4시" />
-    <meta property="og:url" content="https://kyuhyuk.kr/wedding-invitation" />
-    <meta name="theme-color" content="#BCAAA4" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet" />
-    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
-    <title>병휘❤희연 결혼식에 초대합니다</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:type" content="website" />
+  <meta content="병휘❤희연 결혼식에 초대합니다" name="Title" />
+  <meta content="2024년 06월 01일 토요일 오후 4시" name="Description" />
+  <meta content="2024년 06월 01일 토요일 오후 4시" name="Keyword" />
+  <meta property="og:title" content="병휘❤희연 결혼식에 초대합니다" />
+  <meta property="og:description" content="2024년 06월 01일 토요일 오후 4시" />
+  <meta property="og:url" content="https://hheeeeeeeee.github.io/invitation/" />
+  <meta name="theme-color" content="#BCAAA4" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet" />
+  <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+  <title>병휘❤희연 결혼식에 초대합니다</title>
+  <style>
+    /* CSS styles here */
+    /* Include styles from App.css and other style files */
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script>
+    // JavaScript code here
+    // Import necessary modules dynamically and append them to the page
+
+    // Import React and ReactDOM
+    var scriptReact = document.createElement('script');
+    scriptReact.src = 'https://unpkg.com/react@17/umd/react.development.js';
+    document.head.appendChild(scriptReact);
+
+    var scriptReactDOM = document.createElement('script');
+    scriptReactDOM.src = 'https://unpkg.com/react-dom@17/umd/react-dom.development.js';
+    document.head.appendChild(scriptReactDOM);
+
+    // Define a function to render the app once React and ReactDOM are loaded
+    function renderApp() {
+      // Import other necessary modules dynamically
+      var scriptApp = document.createElement('script');
+      scriptApp.src = './App.js'; // Adjust the path according to your file structure
+      document.head.appendChild(scriptApp);
+    }
+
+    // Listen for React and ReactDOM to be loaded
+    scriptReact.onload = renderApp;
+    scriptReactDOM.onload = renderApp;
+  </script>
+</body>
 </html>
