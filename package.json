@@ -3,12 +3,16 @@
   "version": "1.0.1",
   "description": "KyuHyuk Lee🤵 ❤ Jungwon Byeon👰 Wedding Invitation💌",
   "main": "index.js",
-  "repository": "https://github.com/LeeKyuHyuk/wedding-invitation.git",
   "author": "KyuHyuk Lee <lee@kyuhyuk.kr>",
   "license": "MIT",
+  "homepage": "https://your-username.github.io/wedding-invitation/",
   "scripts": {
-    "start": "NODE_ENV=development webpack serve --progress",
-    "build": "NODE_ENV=production webpack --progress"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/react-copy-to-clipboard": "^5.0.1",
@@ -34,6 +38,7 @@
     "typescript": "^4.4.2",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.0.0"
+    "webpack-dev-server": "^4.0.0",
+    "gh-pages": "^3.1.0"
   }
 }
