@@ -14,40 +14,31 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet" />
-  <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
   <title>병휘❤희연 결혼식에 초대합니다</title>
   <style>
     /* CSS styles here */
     /* Include styles from App.css and other style files */
   </style>
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 </head>
 <body>
   <div id="root"></div>
 
   <script>
-    // JavaScript code here
-    // Import necessary modules dynamically and append them to the page
-
-    // Import React and ReactDOM
-    var scriptReact = document.createElement('script');
-    scriptReact.src = 'https://unpkg.com/react@17/umd/react.development.js';
-    document.head.appendChild(scriptReact);
-
-    var scriptReactDOM = document.createElement('script');
-    scriptReactDOM.src = 'https://unpkg.com/react-dom@17/umd/react-dom.development.js';
-    document.head.appendChild(scriptReactDOM);
-
     // Define a function to render the app once React and ReactDOM are loaded
     function renderApp() {
       // Import other necessary modules dynamically
       var scriptApp = document.createElement('script');
-      scriptApp.src = './App.js'; // Adjust the path according to your file structure
+      scriptApp.src = 'https://hheeeeeeeee.github.io/invitation/App.js'; // Adjust the path according to your file structure
       document.head.appendChild(scriptApp);
     }
 
     // Listen for React and ReactDOM to be loaded
-    scriptReact.onload = renderApp;
-    scriptReactDOM.onload = renderApp;
+    document.addEventListener('DOMContentLoaded', function() {
+      renderApp();
+    });
   </script>
 </body>
 </html>
