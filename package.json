@@ -1,11 +1,10 @@
 {
   "name": "wedding-invitation",
   "version": "1.0.1",
-  "description": "KyuHyuk Lee🤵 ❤ Jungwon Byeon👰 Wedding Invitation💌",
+  "description": "Kim🤵 ❤ kim👰 Wedding Invitation💌",
   "main": "index.js",
-  "author": "KyuHyuk Lee <lee@kyuhyuk.kr>",
   "license": "MIT",
-  "homepage": "https://your-username.github.io/wedding-invitation/",
+  "homepage": "https://HHeeeeeeeee.github.io/invitation/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
